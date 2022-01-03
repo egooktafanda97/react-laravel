@@ -9,11 +9,15 @@ import {
     useLocation,
 } from "react-router-dom";
 
+import Layout from "../Layout/Layouts";
+
 export default function router() {
     return (
         <Switch>
             <Route exact path="/">
-                <h3>okkkee</h3>
+                <Layout>
+                    <h2>ok</h2>
+                </Layout>
             </Route>
         </Switch>
     );
